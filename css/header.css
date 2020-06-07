@@ -1,0 +1,285 @@
+header{
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background: #fff;
+	
+}
+
+.search{
+	width: 40px;
+	height: 40px;
+		background: url(../img/sv3.png) 0 0 no-repeat;
+		background-position: center;
+	float: left;
+	position: relative;	
+}
+
+.srls{
+width: 40px;
+	height: 40px;
+		background: url(../img/sv2.png) 0 0 no-repeat;
+		background-position: center;
+	float: left;
+	position: relative;	
+}
+
+.srlsno{
+width: 40px;
+	height: 40px;
+	background: url(../img/sv1.png) 0 0 no-repeat;
+	background-position: center;
+	float: left;
+	position: relative;	
+}
+
+
+.top-menu .cont-ins {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1px;
+    margin-bottom: 22px;
+    overflow: visible;
+    padding-top: 1px;
+    height: 41px;
+}
+
+.logo {
+    width: 220px;
+    height: 70px;
+    background: url(../img/logo.png) 0 0 no-repeat;
+    margin-bottom: -16px;
+}
+
+.lang.fll {
+    padding: 5px 10px;
+    border-radius: 27px;
+    color: #fff;
+    margin-top: 3px;
+    font-family: 'Arial';
+    font-size: 14px;
+    width: 65px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jq-selectbox li {
+    padding: 4px 10px 6px !important;
+}
+
+.navbar-nav>li>a {
+    padding-top: 0px;
+    font-family: "UbuntuMedium";
+    font-size: 16px;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    background: url(../img/car.png) 0 0 no-repeat;
+    border: 0;
+    width: 9px;
+    height: 10px;
+    margin-top: 4px;
+}
+
+.sprw {
+    background: url(../img/spr.png) 0 0 no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+    margin-top: 4px;
+    vertical-align: bottom;
+}
+
+.navbar-nav>li>a {
+    padding-bottom: 5px;
+    text-decoration: none;
+    text-align: right !important;
+    float: right;
+    padding-right: 0;
+    padding-left: 27px;
+}
+
+
+.navbar-nav {
+    float: right;
+}
+
+
+.dropdown-menu>li>a{
+	font-family: "UbuntuMedium";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    padding-top: 1px;
+}
+
+.abs-info {
+    background: url(../img/absi.png) 0 0 no-repeat;
+    width: 16px;
+    height: 17px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 3px;
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+.contacts-area.fll a:hover{
+	text-decoration: none;
+}
+
+.dropdown-menu {
+    border: 0;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+}
+
+ul.dropdown-menu {
+    border-bottom: 4px solid #d76203;
+}
+
+.minimize-menu header{
+	    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+-moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background: none !important;
+}
+
+.bigs-drop{
+	width: 660px;
+}
+
+.dropdown-menu li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.dropdown-menu li a {
+    font-size: 11px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    padding-left: 28px;
+    color: #6f6f6f !important;
+}
+
+.dropdown-menu li:hover{
+	background: #3ac6c2;
+}
+
+.dropdown-menu li:hover a{
+	color: #fff !important;
+}
+
+.dropdown-menu .col-sm-6{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-radius: 0 !important;
+}
+
+.dropdown-menu li:before {
+    content: '';
+    position: absolute;
+    background: url(../img/dg.png) 0 0 no-repeat;
+    width: 24px;
+    height: 7px;
+    margin-left: 18px;
+    margin-top: 7px;
+}
+
+.bigs-drop li:before {
+    margin-top: 5px !important;
+}
+
+.dropdown-menu li:hover:before{
+	background-position: 0 -7px;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+
+
+.lang.fll .jq-selectbox__trigger {
+    display: none !important;
+}
+
+.lang.fll .jq-selectbox__select {
+    width: 100%;
+    height: 23px;
+    padding: 3px 10px !important;
+    border: 1px solid #3AC6C2 !important;
+    background: #3AC6C2 !important;
+    font: 14px/32px "Lato", sans-serif;
+    color: #fff !important;
+    text-shadow: 1px 1px #FFF;
+    border-radius: 12px;
+}
+
+.lang.fll .jq-selectbox__select-text {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Arial" !important;
+    margin-top: -9px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.lang.fll .jq-selectbox__dropdown {
+    box-sizing: border-box;
+    width: 100%;
+    margin: -1px 0 0;
+    padding: 0;
+    border: 1px solid #191919;
+    border-top: 1px solid #fff;
+    background: #159a96;
+    font-family: "Arial" !important;
+    margin-top: -24px;
+    border: 0 !important;
+    color: #fff !important;
+}
+
+.lang.fll .jq-selectbox li {
+    color: #fff !important;
+}
+
+.lang.fll .jq-selectbox li {
+    font-size: 12px !important;
+}
+
+.lang.fll .jq-selectbox__dropdown {
+    margin-left: 0px !important;
+    width: 66px !important;
+    text-align: center !important;
+    border-radius: 13px;
+}
+
+.jq-selectbox li.selected {
+    background-color: #159A96 !important;
+    color: #FFF;
+    border-radius: 30px !important;
+}
+
+.jq-selectbox li:hover{
+	 background-color: #159A96 !important;
+	 text-decoration: underline !important;
+	 border-radius: 20px !important;
+}

@@ -1,0 +1,62 @@
+.footer {
+  height: auto;
+  overflow: hidden;
+}
+
+.footer ul li{
+	text-align: left;
+}
+
+.footer h4{
+	text-align: left;
+}
+
+
+.footer .input-group.fll {
+    max-width: 400px;
+}
+
+.top-foorer p{
+	margin-right: 10px;
+}
+
+.footer .soc-area {
+	
+}
+
+.footer .soc-area .soc1 {
+	
+}
+.footer .soc-area .soc2 {
+	
+}
+
+.footer .soc-area .soc3 {
+	
+}
+
+.footer .soc-area .soc4 {
+	
+}
+
+.footer .soc-area .soc5 {
+	
+}
+
+footer .vsl1{
+	display: none;
+}
+
+footer .socl {
+    margin-top: 20px;
+    margin-left: -7px;
+    display: none;
+}
+
+footer .rasp-area{
+	display: none;
+}
+
+.footer-middle {
+    display: none !important;
+}

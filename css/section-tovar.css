@@ -1,0 +1,57 @@
+
+.slider-nav .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.slider.slider-nav .slick-active img {
+    border: 3px solid #df8005;
+}
+
+  .slider-nav  .slick-active + .slick-active:nth-child(1n) img{
+      border: 0px solid #eee !important;
+    }
+    
+    .swipy-rw {
+    position: relative;
+    clear: both;
+}
+    
+
+.slider-nav img {
+    height: 83px;
+    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.slider-nav .slick-slide {
+    display: block;
+    padding: 0 8px;
+}
+
+.close-block{
+	clear: both;
+}
+
+.slider-nav .slick-prev {
+    background: url(../img/hvl.png) 0 0 no-repeat !important;
+    border-top: 0 !important;
+    box-shadow: none !important;
+    height: 16px;
+}
+
+.slider-nav .slick-next {
+    background: url(../img/hvr.png) 0 0 no-repeat !important;
+    border-top: 0 !important;
+    box-shadow: none !important;
+    height: 16px;
+    background-position: right !important;
+}
+
